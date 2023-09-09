@@ -1,7 +1,7 @@
 baseURL: "https://vaidehi-deshpande.netlify.app/"
 languageCode: "en-us"
 title: "Vaidehi Profile"
-theme: portfolio-vaidehi
+theme: hugo-profile
 
 outputs:
   home:
