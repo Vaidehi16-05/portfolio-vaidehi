@@ -119,7 +119,7 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Vaidehi Deshpande"
-    subtitle: "I build things for the web"
+    subtitle: "I use the power of data"
     content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
     image: /images/hero.svg
     bottomImage:
