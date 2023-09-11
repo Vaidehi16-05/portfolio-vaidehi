@@ -19,21 +19,21 @@ enableRobotsTXT: true
 
 markup:
   goldmark:
-    renderer:
+    renderer: 
       unsafe: true
 
-Menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
+# Menus:
+#   main:
+#     - identifier: blog
+#       name: Blog
+#       title: Blog posts
+#       url: /blogs
+#       weight: 1
+#     - identifier: gallery
+#       name: Gallery
+#       title: Blog posts
+#       url: /gallery
+#       weight: 2
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -53,15 +53,15 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
-  description: Text about my cool site
-  # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  # title: "Hugo Profile"
+  # description: Text about my cool site
+  # # staticPath: ""  # The path to serve the static files from
+  # favicon: "/fav.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
   # Note the lack of "" in true, it should be of boolean type.
-  useBootstrapCDN: false
+  # useBootstrapCDN: false
 
   # If you want to load dynamically responsive images from Cloudinary
   # This requires your images to be uploaded + hosted on Cloudinary
@@ -69,17 +69,17 @@ params:
   # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
 
   # Whether the fade animations on the home page will be enabled
-  animate: true
+  # animate: true
 
-  theme:
-    # disableThemeToggle: true
-    # defaultTheme: "light" # dark
+  # theme:
+  #   # disableThemeToggle: true
+  #   # defaultTheme: "light" # dark
 
-  font:
-    fontSize: 1rem # default: 1rem
-    fontWeight: 400 # default: 400
-    lineHeight: 1.5 # default: 1.5
-    textAlign: left # default: left
+  # font:
+  #   fontSize: 1rem # default: 1rem
+  #   fontWeight: 400 # default: 400
+  #   lineHeight: 1.5 # default: 1.5
+  #   textAlign: left # default: left
 
   # color preference
   # color:
@@ -104,10 +104,10 @@ params:
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
     #brandName:  # Brand name for the brand | default is the title variable
-    disableSearch: false
+    disableSearch: true
     # searchPlaceholder: "Search"
     menus:
-      disableAbout: false
+      disableAbout: true
       disableExperience: false
       disableEducation: false
       disableProjects: false
@@ -149,7 +149,7 @@ params:
   # About
   about:
     enable: true
-    title: "About Me"
+    title: "I'm Open to work from December 2023"
     image: "me.jpg"
     content: |-
       I am a Data Scientist with over 2+ years of hands-on experience, currently advancing my expertise in the Master's in Information Systems at University of Maryland. 
@@ -244,8 +244,9 @@ params:
           - Coursework : Structured Programming Approach, Artificial Intelligence, Data Structures and Algorithms
 
           Extracurricular Activities
+            - Served as Director of Club and community services for Rotaract Club of SPIT for 2 consecutive years.
             - Represented college at college level Basketball 
-            - Tempora esse, eaque delectus
+            - Organized events during college fests.
         
    
 
