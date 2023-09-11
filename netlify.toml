@@ -1,8 +1,10 @@
 [build]
 # command = "hugo --gc --minify"
 # publish = "public"
-publish = "exampleSite/public"
-command = 'cd exampleSite && hugo --gc --minify --themesDir ../..'
+##publish = "exampleSite/public"
+#command = 'cd exampleSite && hugo --gc --minify --themesDir ../..'
+publish = "portfolio-vaidehi"
+command = 'cd portfolio-vaidehi && hugo --gc --minify --themesDir ../..'
 
 [context.production.environment]
 HUGO_VERSION = "0.92.0"
