@@ -3,7 +3,7 @@
 # publish = "public"
 ##publish = "exampleSite/public"
 #command = 'cd exampleSite && hugo --gc --minify --themesDir ../..'
-publish = "portfolio-vaidehi"
+publish = "public"
 command = 'hugo --gc --minify'
 
 [context.production.environment]
