@@ -1,7 +1,7 @@
 #baseURL: "https://vaidehi-deshpande.netlify.app/"
 baseURL: "https://vaidehi-deshpande.netlify.app/"
 languageCode: "en-us"
-title: "Vaidehi Profile"
+title: "Vaidehi"
 theme: portfolio-vaidehi
 
 outputs:
@@ -241,94 +241,94 @@ params:
         date: "2016 - 2020"
         GPA: "3.5 out of 4.0"
         content: |-
-          - 
-          - Coursework : Structured Programming Approach, Artificial Intelligence, Data Structures and Algorithms
+          - Main author of the paper titled 'Real Time Plant Watering System' published in the esteemed Asian Journal of Convergence in Technology.
+          - Data Science & Analytics Courses: Artificial Intelligence, Data Warehousing and Data Mining, Big Data Analytics, Predictive Analytics, Database Management,
+          Structured Programming Approach, Data Structures and Algorithms and Computer Architecture.
+          - Other courses: Personality Development, Communication Skills, Critical Thinking and Problem Solving, Human Resource Management,
+          Design Thinking, Conflict Resolution and Mediation, Entrepreneurship skills.
 
           Extracurricular Activities
-            - Served as Director of Club and community services for Rotaract Club of SPIT for 2 consecutive years.
-            - Represented college at college level Basketball 
-            - Organized events during college fests.
+            - Successfully served two consecutive years as the Director of Club and Community Services for the Rotaract Club of SPIT, 
+            overseeing key initiatives and fostering community engagement.
+            - Competed as a representative of my college in inter-collegiate basketball tournaments.
+            - Successfully orchestrated events such as mock virtual placements and inter-college dance competitions, 
+            enhancing the vibrancy and engagement of college festivals.
         
    
 
-  # Achievements
-  # achievements:
-  #   enable: true
-  #   # title: "Custom Name"
-  #   items:
-  #     - title: Google kickstart runner
-  #       content: I solved all problems with optimal solution.
-  #       url: https://example.com
-  #       image: /images/achievment.jpg
-  #     - title: Facebook Hackathon Winner
-  #       content: Developed a product using Artificial Intelligence.
-  #       image: /images/achievment.jpg
-  #     - title: Hugo Profile
-  #       content: Developed a theme and getting 1K+ downloads per month.
-  #       url: "https://github.com/gurusabarish/hugo-profile"
-  #       image: /images/achievment.jpg
-  #     - title: Microsoft Imagine Runner
-  #       content: We are developed a product which can help others.
-  #     - title: Google Summer of Code
-  #       content: Contributed to a open source project.
-  #       url: https://example.com
-
+  Achievements
+  achievements:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: Published my paper at ASSR's Asian Journal of Convergence in Technology.
+        content: Main author of the paper titled 'Real Time Plant Watering System' under the guidance of Head of Engineering Departmemt.
+        url: https://asianssr.org/index.php/ajct/article/view/880
+      
+      - title: Elected as Director of Club & Community services (2017-2019)
+        content: Spearheaded 20+ social initiatives increasing footfall by 30% and fostering community engagement.
+        
+      - title: Led the Massive Art Drive Initiative
+        content: Successfully orchestrated a Massive Art Drive, drawing over 300 participants for a social cause initiative.
+        
+        
+      
   # projects
   projects:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
-        featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+      - title: Key Soccer striker goals Analysis
+        content: Analyzed performance of key Soccer striker’s performance for strategic decision making
+        image: ronaldo_img.png
+        # featured:
+        #   name: Click to know more
+        #   link: https://github.com/Vaidehi16-05/Key_Soccer_Striker_performance_analysis
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Python"
+          - "Data Analysis"
+          - "Data Visualization"
         links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+            url: https://github.com/Vaidehi16-05/Key_Soccer_Striker_performance_analysis
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
+      - title: Airbnb Predictive Analytics
+        content: Enhanced Airbnb’s user segmentation leading to targeted marketing efficiency and user engagement.
+        image: Airbnb_proj.png
+        # featured:
+        #   name: Demo
+        #   link: https://django-converter.herokuapp.com
         badges:
-          - "Django"
-          - "Bootstrap"
+          - "R programming"
+          - "KNN"
+          - "SVM"
+          - "Tree"
+          - "Logistic Regression"
+          - "Ridge & Lasso"
+          - "Cross Validation"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/Vaidehi16-05/Airbnb_Predictive_Analytics
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+      - title: Fitbit Vitals Analysis
+        content: An interactive Tableau dashboard analyzing various health metrics captured by Fitbit devices.
+        image: fitbit_dashboard.png
+        # featured:
+        #   name: Demo V2
+        #   link: https://hugo-profile-2.netlify.app
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Tableau"
+          - "Microsoft Excel"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/Vaidehi16-05/Fitbit_Vitals_analysis
 
   #Contact
   contact:
     enable: true
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: gurusabarisha@gmail.com
+    email: vai1698@umd.edu
     btnName: Mail me
     # formspree:
     #   enable: true # `contact.email` value will be ignored
@@ -344,11 +344,9 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/Vaidehi16-05
+      linkedin: https://www.linkedin.com/in/vaidehirdeshpande/
+      instagram: https://www.instagram.com/vaidehi16_05/
 
   # List pages like blogs and posts
   listPages:
