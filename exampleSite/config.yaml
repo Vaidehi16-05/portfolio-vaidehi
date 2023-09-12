@@ -297,7 +297,7 @@ params:
         image: Airbnb_img.png
         featured:
           name: Click to know more
-          link: https://github.com/Vaidehi16-05/Key_Soccer_Striker_performance_analysis
+          link: https://github.com/Vaidehi16-05/Airbnb_Predictive_Analytics
         badges:
           - "R programming"
           - "KNN"
