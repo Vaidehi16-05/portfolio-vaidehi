@@ -256,7 +256,7 @@ params:
         
    
 
-  Achievements
+  #Achievements
   achievements:
     enable: true
     # title: "Custom Name"
