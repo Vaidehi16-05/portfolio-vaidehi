@@ -281,23 +281,23 @@ params:
       - title: Key Soccer striker goals Analysis
         content: Analyzed performance of key Soccer striker’s performance for strategic decision making
         image: ronaldo_img.png
-        # featured:
-        #   name: Click to know more
-        #   link: https://github.com/Vaidehi16-05/Key_Soccer_Striker_performance_analysis
+        featured:
+          name: Click to know more
+          link: https://github.com/Vaidehi16-05/Key_Soccer_Striker_performance_analysis
         badges:
           - "Python"
           - "Data Analysis"
           - "Data Visualization"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/Vaidehi16-05/Key_Soccer_Striker_performance_analysis
+        # links:
+        #   - icon: fab fa-github
+        #     url: https://github.com/Vaidehi16-05/Key_Soccer_Striker_performance_analysis
 
       - title: Airbnb Predictive Analytics
         content: Enhanced Airbnb’s user segmentation leading to targeted marketing efficiency and user engagement.
         image: Airbnb_img.png
-        # featured:
-        #   name: Demo
-        #   link: https://django-converter.herokuapp.com
+        featured:
+          name: Click to know more
+          link: https://github.com/Vaidehi16-05/Key_Soccer_Striker_performance_analysis
         badges:
           - "R programming"
           - "KNN"
@@ -306,22 +306,22 @@ params:
           - "Logistic Regression"
           - "Ridge & Lasso"
           - "Cross Validation"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/Vaidehi16-05/Airbnb_Predictive_Analytics
+        # links:
+        #   - icon: fab fa-github
+        #     url: https://github.com/Vaidehi16-05/Airbnb_Predictive_Analytics
 
       - title: Fitbit Vitals Analysis
         content: An interactive Tableau dashboard analyzing various health metrics captured by Fitbit devices.
         image: fitbit_dashboard.png
-        # featured:
-        #   name: Demo V2
-        #   link: https://hugo-profile-2.netlify.app
+        featured:
+          name: Click to know more
+          link: https://github.com/Vaidehi16-05/Fitbit_Vitals_analysis
         badges:
           - "Tableau"
           - "Microsoft Excel"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/Vaidehi16-05/Fitbit_Vitals_analysis
+        # links:
+        #   - icon: fab fa-github
+        #     url: https://github.com/Vaidehi16-05/Fitbit_Vitals_analysis
 
   #Contact
   contact:
