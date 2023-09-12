@@ -294,7 +294,7 @@ params:
 
       - title: Airbnb Predictive Analytics
         content: Enhanced Airbnb’s user segmentation leading to targeted marketing efficiency and user engagement.
-        image: Airbnb_proj.png
+        image: Airbnb_img.png
         # featured:
         #   name: Demo
         #   link: https://django-converter.herokuapp.com
@@ -337,12 +337,12 @@ params:
     #   messageCaption: "Enter your message here"
 
   footer:
-    recentPosts:
-      path: "blogs"
-      count: 3
-      title: Recent Posts
-      enable: true
-      disableFeaturedImage: false
+    # recentPosts:
+    #   path: "blogs"
+    #   count: 3
+    #   title: Recent Posts
+    #   enable: true
+    #   disableFeaturedImage: false
     socialNetworks:
       github: https://github.com/Vaidehi16-05
       linkedin: https://www.linkedin.com/in/vaidehirdeshpande/
