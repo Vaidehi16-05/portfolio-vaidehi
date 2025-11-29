@@ -120,9 +120,6 @@ params:
     enable: true
     intro: "Hi, this is"
     title: "Vaidehi Deshpande"
-    #subtitle: "I use the power of data"
-    # content: "Crafting tomorrow's canvas with today's data, I carve intricate datasets into clear roadmaps for impactful decisions. Beyond the world of data,
-    # I am also a passionate singer and an avid basketball player!"
     content: "I’m a Data Professional who thrives on uncovering patterns, solving ambiguity, and building intelligent systems with measurable impact. Off the laptop, 
     I recharge by singing and competing on the basketball court because great problem-solvers need rhythm and grit :)"
     image: yellolwstone_edited.png
@@ -136,13 +133,13 @@ params:
       download: false
       newPage: true
 
-    button:
+    button2:
       enable: true
       name: "Schedule a call with me"
       url: "https://calendly.com/vaidehideshpande/30min"
       download: false
       newPage: true
-      
+
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-linkedin
