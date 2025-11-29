@@ -207,13 +207,13 @@ params:
 
           <br/>
           <button
-          class="btn btn-sm btn-primary"
+          class="btn btn-sm btn-outline-primary"
           data-ai-explain-project="hughes-anomaly-platform"
           data-ai-output-target="#ai-explain-hughes"
           >
           🔍 Ask AI to explain this experience
           </button>
-          <div id="ai-explain-hughes" style="margin-top: 0.75rem; font-size: 0.9rem;"></div>
+        #<div id="ai-explain-hughes" style="margin-top: 0.75rem; font-size: 0.9rem;"></div>
 
 
       - job: "Graduate Research Assistant"
