@@ -54,7 +54,7 @@ markup:
     #   weight: 2
 
 params:
-customJS:
+  customJS:
     - "js/ai-explainer.js"
   # title: "Hugo Profile"
   # description: Text about my cool site
