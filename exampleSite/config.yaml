@@ -279,8 +279,7 @@ params:
     # title: "Custom Name"
     items:
       - title: Selected for AWS All Builders Welcome Grant
-        content: Awarded the highly competitive AWS All Builders Welcome Grant to attend AWS re:Invent 2025, 
-        with full sponsorship.
+        content: Awarded the highly competitive AWS All Builders Welcome Grant to attend AWS re:Invent 2025, with full sponsorship.
 
       - title: Published my paper at ASSR's Asian Journal of Convergence in Technology.
         content: Main author of the paper titled 'Real Time Plant Watering System' under the guidance of Head of Engineering Departmemt.
