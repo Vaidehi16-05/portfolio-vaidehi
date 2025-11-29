@@ -124,8 +124,8 @@ params:
     # content: "Crafting tomorrow's canvas with today's data, I carve intricate datasets into clear roadmaps for impactful decisions. Beyond the world of data,
     # I am also a passionate singer and an avid basketball player!"
     content: "I’m a Data Professional who thrives on uncovering patterns, solving ambiguity, and building intelligent systems with measurable impact. Off the laptop, 
-    I recharge by singing and competing on the basketball court because great problem-solvers need rhythm and grit."
-    image: yellowstone_vai.png
+    I recharge by singing and competing on the basketball court because great problem-solvers need rhythm and grit :)"
+    image: yellolwstone_edited.png
     bottomImage:
       enable: true
     roundImage: true # Make hero image circular | default false
@@ -147,8 +147,8 @@ params:
       customIcons:
         - icon: tableau.svg
           url: https://public.tableau.com/app/profile/vaidehi.deshpande6100
-        - icon: umd-logo.jpg
-          url: https://undergrad.cs.umd.edu/people/vaidehi-deshpande#
+        # - icon: umd-logo.jpg
+        #   url: https://undergrad.cs.umd.edu/people/vaidehi-deshpande#
 
   # About
   about:
@@ -278,15 +278,19 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+      - title: Selected for AWS All Builders Welcome Grant
+        content: Awarded the highly competitive AWS All Builders Welcome Grant to attend AWS re:Invent 2025, 
+        with full sponsorship.
+
       - title: Published my paper at ASSR's Asian Journal of Convergence in Technology.
         content: Main author of the paper titled 'Real Time Plant Watering System' under the guidance of Head of Engineering Departmemt.
         url: https://asianssr.org/index.php/ajct/article/view/880
       
-      - title: Elected as Director of Club & Community services (2017-2019)
+      - title: Elected as Director of Club & Community services (Rotaract Club)
         content: Spearheaded 20+ social initiatives increasing footfall by 30% and fostering community engagement.
         
-      - title: Led the Massive Art Drive Initiative
-        content: Successfully orchestrated a Massive Art Drive, drawing over 300 participants for a social cause initiative.
+      # - title: Led the Massive Art Drive Initiative
+      #   content: Successfully orchestrated a Massive Art Drive, drawing over 300 participants for a social cause initiative.
         
         
       
