@@ -133,9 +133,16 @@ params:
       enable: true
       name: "Resume"
       url: "https://drive.google.com/file/d/1Ce7wiCHx9TYGf2n1fX2kE39TuvO4CHYS/view?usp=drive_link"
-
       download: false
       newPage: true
+
+    button:
+      enable: true
+      name: "Schedule a call with me"
+      url: "https://calendly.com/vaidehideshpande/30min"
+      download: false
+      newPage: true
+      
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-linkedin
