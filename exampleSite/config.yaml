@@ -54,6 +54,8 @@ markup:
     #   weight: 2
 
 params:
+customJS:
+    - "js/ai-explainer.js"
   # title: "Hugo Profile"
   # description: Text about my cool site
   # # staticPath: ""  # The path to serve the static files from
@@ -202,7 +204,16 @@ params:
           - Led a multi-phase NetBackup & RHEL upgrade across mission-critical data platforms, coordinating 6+ teams to deliver 
           zero-data-loss migration and $200K+ annual cost savings.
           - Automated ETL pipelines and Python-driven workflows across MongoDB and Oracle, cutting configuration update time from 2.5 hours to 30 minutes for 70+ devices.
-      
+
+          <br/>
+          <button
+          class="btn btn-sm btn-primary"
+          data-ai-explain-project="hughes-anomaly-platform"
+          data-ai-output-target="#ai-explain-hughes"
+          >
+          🔍 Ask AI to explain this experience
+          </button>
+          <div id="ai-explain-hughes" style="margin-top: 0.75rem; font-size: 0.9rem;"></div>
 
 
       - job: "Graduate Research Assistant"

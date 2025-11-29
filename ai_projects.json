@@ -1,0 +1,27 @@
+
+{
+    "hughes-anomaly-platform": {
+      "title": "Terabyte-scale anomaly detection platform at Hughes Network Systems",
+      "context": "Role: Data Analytics Systems Engineer II. Time: Feb 2024 – Dec 2025. Also, Conducted A/B testing to optimize hyperparameters which significantly reduced monthly downtime by 10 hours. Tech stack: Python, PySpark, Apache, Flask, cron-based scheduling, Tableau dashboards for visualization, integration with internal Network management systems.",
+      "defaultQuestion": "Explain this project to a hiring manager who is evaluating me for a Senior Data Scientist or AI Engineer role."
+    },
+  
+    "hughes-upgrade-netbackup": {
+      "title": "Multi-phase NetBackup & RHEL upgrade across critical data platforms",
+      "context": "I led a multi-phase infrastructure upgrade upgrade of Veritas NetBackup (8.2 to 10.5) and RHEL (7.5 to 8.5) across multiple mission-critical data platforms. The work involved coordinating with 6+ cross-functional teams (DBAs, infra, network, security, app owners), resolving compatibility and performance issues, planning rollback strategies, and running dry runs. Also utilized LEAPP for OS migrations and validating backup integrity achieving zero data loss. We executed the migration with zero data loss and significantly improved reliability, monitoring, and compliance for backup platforms. Estimated savings were $200K+ annually from reduced failures, support calls, and manual interventions. I also achieved recognition from senior leadership for this project",
+      "defaultQuestion": "Summarize why this upgrade project is impressive for a data/AI hiring manager."
+    },
+  
+    "hughes-predictive-ML": {
+      "title": "predictive ML models on alarms and outage data to forecast system performance",
+      "context": "Developed predictive ML models on alarms and outage data, accelerating incident detection and response by 30%.",
+      "defaultQuestion": "Summarize why this upgrade project is impressive for a data/AI hiring manager."
+    },
+  
+    "hughes-etl-kpi": {
+      "title": "ETL pipelines and Python-driven workflows for measuring KPI",
+      "context": "I led a multi-phase infrastructure upgrade for Veritas NetBackup and RHEL across multiple mission-critical data platforms. The work involved coordinating with 6+ cross-functional teams (DBAs, infra, security, app owners), resolving compatibility and performance issues, planning rollback strategies, and running dry runs. We executed the migration with zero data loss and significantly improved reliability, monitoring, and compliance for backup platforms. Estimated savings were $200K+ annually from reduced failures, support calls, and manual interventions.",
+      "defaultQuestion": "Summarize why this upgrade project is impressive for a data/AI hiring manager."
+    }
+  }
+  
