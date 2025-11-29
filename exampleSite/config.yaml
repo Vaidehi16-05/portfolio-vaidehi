@@ -121,16 +121,19 @@ params:
     intro: "Hi, this is"
     title: "Vaidehi Deshpande"
     #subtitle: "I use the power of data"
-    content: "Crafting tomorrow's canvas with today's data, I carve intricate datasets into clear roadmaps for impactful decisions. Beyond the world of data,
-    I am also a passionate singer and an avid basketball player!"
-    image: cherry_me.jpg
+    # content: "Crafting tomorrow's canvas with today's data, I carve intricate datasets into clear roadmaps for impactful decisions. Beyond the world of data,
+    # I am also a passionate singer and an avid basketball player!"
+    content: "I’m a Data Professional who thrives on uncovering patterns, solving ambiguity, and building intelligent systems with measurable impact. Off the laptop, 
+    I recharge by singing and competing on the basketball court because great problem-solvers need rhythm and grit."
+    image: yellowstone_vai.png
     bottomImage:
       enable: true
     roundImage: true # Make hero image circular | default false
     button:
       enable: true
       name: "Resume"
-      url: "https://drive.google.com/file/d/1euEVg3detSTTZrEjZ6P6eJS7Qz8sMpDm/view?usp=drive_link"
+      url: "https://drive.google.com/file/d/1Ce7wiCHx9TYGf2n1fX2kE39TuvO4CHYS/view?usp=drive_link"
+
       download: false
       newPage: true
     socialLinks:
@@ -151,11 +154,13 @@ params:
   about:
     enable: true
     title: "I'm Open to work"
-    image: "me.jpg"
+    image: "Vaidehi_headshot.jpeg"
     content: |-
-      I am a Data Scientist with over 2+ years of hands-on experience, currently advancing my expertise in the Master's in Information Systems at University of Maryland. 
-      My academic journey has sharpened my skills in Data Science and Analytics, equipping me with the knowledge 
-      in addressing complex business challenges. My mission is to foster business growth and innovation.
+      I am a Data Professional with over 4 years of experience building end-to-end Machine Learning and AI solutions that turn complex data 
+      into business impact. My background spans predictive modeling, data engineering and analytics, anomaly detection, and LLM-powered 
+      automation delivering measurable improvements in reliability, customer experience, and operational efficiency. 
+      I’m driven by solving high-ambiguity problems and transforming messy, high-volume datasets into clear, actionable insights 
+      that accelerate decision-making and innovation.
 
       Core Competencies:
 
@@ -165,10 +170,10 @@ params:
       items:
         - "Python"
         - "SQL"
-        - "R programming"
-        - "Data Visualization tools"
-        - "Machine Learning"
-        - "Natural Language Processing"
+        - "Machine Learning & AI"
+        - "Data Visualization"
+        - "Product Analytics"
+        - "Data Engineering"
         
 
   # Experience
@@ -176,19 +181,31 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+      - job: "Data Analytics Systems Engineer II"
+        company: "Hughes Network Systems"
+        companyUrl: "https://www.hughes.com/"
+        date: "February 2024 - December 2025"
+        info:
+          enable: false
+        # featuredLink:
+        #   enable: true
+        #   url: "https://example.com"
+        content: |
+          - Designed and deployed a production-grade terabyte scale anomaly detection system using advanced clustering and statistical modeling, 
+          reducing network downtime by 10 hours/month.
+          - Developed predictive ML models on alarms and outage data, accelerating incident detection and response by 30%.
+          - Led a multi-phase NetBackup & RHEL upgrade across mission-critical data platforms, coordinating 6+ teams to deliver 
+          zero-data-loss migration and $200K+ annual cost savings.
+          - Automated ETL pipelines and Python-driven workflows across MongoDB and Oracle, cutting configuration update time from 2.5 hours to 30 minutes for 70+ devices.
+      
+
+
       - job: "Graduate Research Assistant"
         company: "University of Maryland"
         companyUrl: "https://enme.umd.edu/"
-        date: "May 2023 - present"
-        content: "I am currently working with a renowned Professor in College Park, MD on AI’s unintended impacts, analyzing pivotal newsletters and using 
+        date: "May 2023 - December 2023"
+        content: "I worked with a renowned Professor in College Park, MD on AI’s unintended impacts, analyzing pivotal newsletters and using 
         Reference Management software to organize data and tag over 2000 data points to simplify complex narrative challenges."
-      
-      # - job: "Peer Advisor"
-      #   company: "University of Maryland"
-      #   companyUrl: "https://undergrad.cs.umd.edu/"
-      #   date: "March 2023 - present"
-      #   content: "Mentored Undergraduate Computer Science students in their academic and career choices, demonstrated
-      #   exceptional communication and problem-solving skills to assist them in resolution of their academic challenges."
 
   
       - job: "Data Scientist"
@@ -220,10 +237,10 @@ params:
           url: "https://umd.edu"
         date: "2022 - 2023"
         GPA: "3.59 out of 4.0"
-        featuredLink:
-          enable: true
-          name: "Peer Advisor"
-          url: "https://undergrad.cs.umd.edu/people/vaidehi-deshpande#"
+        # featuredLink:
+        #   enable: true
+        #   name: "Peer Advisor"
+        #   url: "https://undergrad.cs.umd.edu/people/vaidehi-deshpande#"
         content: |-
           - Working as a Research Assistant and collaborating with a distinguished professor for analyzing AI's unintended impacts.
           - Mentored undergraduate Computer Science students, guiding academic and career choices while resolving challenges with effective communication.
