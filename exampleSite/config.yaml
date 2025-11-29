@@ -149,10 +149,11 @@ params:
         
 
       customIcons:
+        - icon: connet_w_me_icon.png
+          url: https://calendly.com/vaidehideshpande/30min
         - icon: tableau.svg
           url: https://public.tableau.com/app/profile/vaidehi.deshpande6100
-        # - icon: umd-logo.jpg
-        #   url: https://undergrad.cs.umd.edu/people/vaidehi-deshpande#
+        
 
   # About
   about:
