@@ -17,7 +17,7 @@ async function callAIProjectExplainer(projectId, overrideQuestion) {
         userQuestion: overrideQuestion || project.defaultQuestion
       };
   
-      const res = await fetch("/.netlify/functions/ai_project_explainer", {
+      const res = await fetch("/.netlify/functions/ai_project_explainer.js", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"

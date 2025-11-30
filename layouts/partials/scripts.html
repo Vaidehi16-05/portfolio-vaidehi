@@ -92,3 +92,10 @@
 {{ if (.Site.Params.customScripts | default false) }}
 {{ .Site.Params.customScripts | safeHTML }}
 {{ end }}
+
+{{- with .Site.Params.customJS }}
+  {{- range . }}
+    <script src="{{ $.Site.Params.staticPath }}/{{ . }}"></script>
+  {{- end }}
+{{- end }}
+
